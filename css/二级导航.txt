@@ -1,0 +1,15 @@
+ul li {
+            position: relative;
+        }相对定位 相对于父级
+dl {
+            position: absolute;
+        }绝对定位 相对于父级
+
+
+.x :after{content:""; display:bolck;clear:both;}
+float:left
+.x{
+display:block;clear:both;【.x清楚浮动】
+}
+经过时动画
+transition:all .3s

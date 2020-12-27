@@ -1,0 +1,32 @@
+常用大小单位：px
+不同浏览器默认字体大小不同，
+尽量给body一个固定的字体大小
+body{
+font-size:00px
+}
+字体 font-family:"微软雅黑","黑体","宋体",Arial（）,
+"Microsoft YaHei"【中文跟有空格等特殊字符的需要加引号】
+宋体跟微软雅黑兼容性较好
+字体粗细font-weight:100~900    400不加粗   700加粗
+数值需要整百
+字体倾斜与取消倾斜
+font-style:italic[倾斜]；normal[不倾斜]
+
+综合写法
+font:style weight size/line-height family 
+必须按照顺序来写，不需要的可以省略,必须保留size family
+
+文字水平居中对齐与行间距
+text-align:center[居中对齐] left[左对齐 默认] right[右对齐]
+line-height:数值-一般比字号大7~8像素
+
+自动首行缩进
+text-indent:2em     1em=文本文字字符距离
+
+取消文字下划线
+text-decoration:none[u] underline[wu] line-through[删除线] overline[上划线]
+
+文本颜色
+color:预定义red等，十六进制#ffffff，rbg255,255,255
+16进制可以简写1跟2，3跟4，5跟6同时相同可以简写
+

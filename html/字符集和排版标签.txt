@@ -1,0 +1,13 @@
+html lang="zh-CN"    文本内主要语言中文
+	head
+		meta charset="UTF-8"     包含大部分主流语言字符集
+		（GB2312）简体中文    (BIG5)繁体中文
+		(GBK)简体中文+繁体中文      
+		title	/title
+	/head
+	body
+	p /p段落标签   hr /水平线标签	br / 强制换行标签
+	div /div布局标签一行一个     span /span 布局标签一行多个
+	h1 /h1 -h6标题标签
+	/body
+/html

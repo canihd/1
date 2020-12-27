@@ -1,0 +1,10 @@
+<a href="跳转目标" target="目标窗口弹出方式"</a>
+
+<a href="内部文件名">xxx</a>
+<a href="#">空连接</a>
+<a href="外部链接"><img src="内部图片"></a>
+
+target=_self 为默认值 在当前页面打开  _blank为在新窗口打开
+    <a href="hm1-1.html" target="_blank">跳转到当前文件夹内的页面</a>
+    <a href="javascript:;">不需要跳转但需要样式</a>
+    <a href="xxx.zip">下载文件</a>

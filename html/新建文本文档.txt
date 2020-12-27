@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<mate charset="UTF-8">
+		<title> </title>
+		<!-- 所有链接在新窗口中打开 -->
+		<base target= "_blank">
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>	

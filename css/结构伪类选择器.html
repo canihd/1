@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* <!-- ul li:first第一个-child孩子 --> */
+        
+        ul li:first-child {
+            background-color: #666666;
+        }
+        /* last最后一个 */
+        
+        ul li:last-child {
+            background-color: #aaa;
+        }
+        /* :nth-child(n)(里填写要的第几个元素) */
+        
+        ul li:nth-child(5) {
+            background-color: #294;
+        }
+        /* n=even选择偶数n=odd选择奇数 n=2n 偶数 n=2n+1 奇数
+        n=5n 选中5的倍数 n=n+5 从第五个开始选择后面的所有
+        n=-n+5 选择第五个之前的所有*/
+        
+        ul li:nth-child(even) {
+            background-color: #956;
+        }
+        
+        ul li:nth-child(odd) {
+            background-color: #569;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+    </ul>
+</body>
+
+</html>

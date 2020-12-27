@@ -1,0 +1,12 @@
+a{
+	display:inline-block;
+	w100px;
+	h25px;
+	background-color:#aaa;
+	text-alingn:center;
+	text-decoration:none;
+	line-height:25px;
+}
+行高=高度文字垂直居中
+行高>高度文字偏下
+<……

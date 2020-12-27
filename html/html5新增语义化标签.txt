@@ -1,0 +1,38 @@
+header 头部标签
+nav 导航标签
+article内容标签
+section块级标签
+aside侧边栏标签
+footer尾部标签
+这种语义化标准主要针对搜索引擎
+新标签页面中可以使用多次
+ie9中需要把这些元素转换为块级元素
+移动端使用这些标签更好
+
+多媒体标签
+音频标签
+audio【支持三种格式音频 ogg MP3 wav 一般使用ogg和MP3】
+controls向用户显示控件，比如播放按钮
+loop播放结束时重复播放
+<audio src="音频地址" controls="controls" 
+autoplay="autoplay"[谷歌给浏览器默认禁用autoplay] loop="loop"></audio>
+一般指定两个格式音频文件
+<autoplay controls="controls">
+	<source src="音频地址1。MP3" type="audio/mpeg">
+	<source src="音频地址2.ogg" type="audio/ogg">
+</autoplay>
+
+
+视频标签
+video 支持三种格式 ogg mpeg 4 WebM     
+poster 加载等待的图片 muted视频静音，使视频能在谷歌等浏览器自动播放
+<video src="视频地址" poster="图片地址"  muted="muted"></video>写法同音频
+
+input控件标签
+email邮箱		url网址	date 日期	time时间	month月	week周
+number数字	tel手机号码	search搜索框	color颜色选择表单
+<input type="email"  />
+required必须填写	placeholder 提示文本	autofocus自动聚焦属性
+显示历史输入并提交过的值 multiple可多选提交文件
+<input type="text" required="required" ‘必填’placeholder="文本" autofocus="autofocus"‘自动获取鼠标焦点’
+ autocomplete="on/off"‘记录历史搜索记录’ multiple="multiple" />

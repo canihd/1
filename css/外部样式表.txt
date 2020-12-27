@@ -1,0 +1,3 @@
+rel链接文件种类
+stylesheet表示要链接的文件是一个样式文件
+<link rel="stylesheet" type="text/css" href="css路径">

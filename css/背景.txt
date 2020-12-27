@@ -1,0 +1,30 @@
+背景颜色
+background-color:#bbb
+背景图片
+background-imge:url(图片地址);
+背景图片平铺与位置
+background-repeat:no-repeat; 背景图片不平铺
+background-repeat:repeat-x 背景图片横向平铺
+background-repeat:repeat-y 背景图片纵向平铺
+background-position:x坐标 y坐标【可以跟方位名字：
+right top 【右上角】 left bottom 【左下角】center center【水平垂直居中】
+left center【水平靠左居中】如果只指定一个方位名词[如果方位名词和精确单位混用只能为x轴 y轴]
+另一个默认
+为center
+或精确单位】
+
+超大背景图一般需要top center
+
+背景图片滚动或固定【无论怎么拉条永远只显示同一部分】
+background-attachment:scroll  滚动   fixed固定
+
+综合写法
+background:背景颜色 图片地址 平铺 滚动 位置【非强制仅推荐】
+
+背景颜色半透明
+div{
+width:200px;
+height:20px;
+background:rgba(0,0,0,0.2)【rgb色 a就是透明度取值0-1】
+opacity:0-1之间取值盒子内容跟背景都透明
+background-size：长度..-固定宽空格高/百分比..-百分比宽空格高/cover..-填满宽跟高中的最大值/contain..-填满宽跟高中的最小值

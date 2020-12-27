@@ -1,0 +1,16 @@
+
+table<!-- 表格 -->border="数值"边框     width=“宽度”
+height=“高度”  align=right  右侧对齐  center 中间对齐  left左侧对齐 rules="all"同border-collapse
+cellspacing=“数值” 单元格外边距
+celloadding=“数值”单元格内边距
+caption  xx  /caption 表格标题    
+	tr  <!-- 行 --> 
+	th 表头单元格 文字加粗居中/th
+		<td rowspan=“合并个数”>跨行合并
+<!-- 单元格 --> xx  /td   
+		td colspan="合并个数"   跨列合并  /td  
+	/tr
+/table
+
+td{$}*10
+<table rules='all'>去掉单元格之间的空隙

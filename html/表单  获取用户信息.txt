@@ -1,0 +1,47 @@
+input标签
+用户名：<input type="text" autocomplete="off">禁用自动填充历史输入项
+   密码：<input type="password">密码框
+   性别：
+           男<input type="radio" name="sex" checked="checked">
+           女<input type="radio" name="sex">
+   爱好：
+           xx<input type="checkbox" name="hobby">
+           xx<input type="checkbox" name="hobby">
+           xx<input type="checkbox" name="hobby">
+           <input type="image" src="路径"/>
+           <input type="file">  上传文件 
+
+type="xx"		text 单行文本输入框
+password 密码输入框	radio 单选按钮
+checkbox 复选框	button 普通按钮
+submit 提交按钮	reset 重置按钮
+image 图像形式的提交按钮	file 文件域
+name后台通过此标签找到该标签 
+checked 默认选中状态	value显示值 （字）
+maxlength=“” 最多输入字符数
+
+label标签
+使被绑定的表单元素获得输入焦点 包含的地方点了都跟点到框一样 用id绑定
+<label>   用户名：<input type="text" vanlue="请输入用户名" name="yonghuming">
+</label>
+<label for="xx">  昵称：</label> input type="text" id="xx">
+
+
+textarea  文本域
+用户留言：<textarea >  </textarea>显示多行文本   resize: none ; 禁止拖拽文本域
+
+
+select 下拉列表
+籍贯 
+<select>
+	<option>xx</option>	
+	<option selected="selected">xx</option> 默认选中
+	<option>xx</option>
+</select>
+
+
+<form action="#" method="get--post">表单域   action  -----后台url地址
+<!-- method="设置表单数据提交方式g或p" -->  get 将数据已字符串的形式提交到url地址中已?和&分割----post以不可见的方式提交form表单里的数据
+target='_self'在当前页面打开---默认值    _blank新窗口中打开---可设置
+enctype='application/x-www-form-urlencoded'默认值（如果涉及到文件上传啧用multipart/form-data）
+</form>

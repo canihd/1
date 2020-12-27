@@ -1,0 +1,15 @@
+子绝父相
+position:absolute  绝对定位
+top  right  left  bottom    
+
+
+position:relative   相对定位
+
+position:fixed 固定定位
+left:50%
+margin-left:版心的宽度的一半
+跟着版心移动
+
+position:sticky   粘性定位
+top:0 当top值=0时就将盒子定位模式改变为固定定位
+不满足条件时默认是相对定位

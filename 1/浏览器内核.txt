@@ -1,0 +1,6 @@
+Chrinme谷歌	Blink	\
+Safari苹果		Webkit	/
+Firefox火狐	Gecko
+IE	Trident     \
+其他		/
+移动端		Webkit

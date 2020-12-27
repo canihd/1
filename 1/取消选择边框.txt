@@ -1,0 +1,9 @@
+去掉表单默认轮廓线
+input{
+outline:none;
+}
+防止拖拽文本域
+textarea{
+resize:none;
+outline:none;
+}

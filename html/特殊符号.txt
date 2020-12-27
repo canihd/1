@@ -1,0 +1,13 @@
+pre  /pre 预格式化标签 使程序能识别空格跟回车
+特殊符号：
+&nbsp； 空格
+&lt；<
+&gt; >
+&amp; &
+&yen ￥
+&deg;  °
+&plusmn; ±
+&times; ×
+&divide; ÷
+&sup2; ²
+&sup3； 3

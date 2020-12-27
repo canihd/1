@@ -1,0 +1,25 @@
+<style>标签{
+	cursor:pointer;
+}鼠标悬停时会变成小手   标签选择器权重是1
+属性选择器
+button[disabled]【标签+属性】{
+	cursor:default;
+}禁用悬停变小手  属性选择器权重高于标签选择器：10
+input[type="search"]{
+	color:xx;
+}可通过属性的值不同来选择
+div[class^="ljwl"]{
+^=开始字符相同的所有类   $=结束字符相同的所有类  *=包含字符的所有类
+}
+</style>
+<body>
+<标签>xx</标签>
+<标签>xx</标签>
+<标签 disabled="disabled">xx</标签>[禁用点击]
+<标签>xx</标签>
+<input type="text">
+<input type="search">
+<div class="ljwl1"></div>
+<div class="ljwl2"></div>
+<div class="ljwl3"></div>
+</body>

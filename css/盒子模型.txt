@@ -1,0 +1,48 @@
+构成
+{外边距【边框[内边距<内容>内边距]边框】外边距}
+
+边框
+border-width宽度:1px
+border-style样式:none[wu] solid[实线]dashed[虚线]dotted[点线]
+border-color颜色:xxx
+综合写法border:粗细 样式 颜色 不强制仅建议
+border-top:1px solid red; 分别指定宽度和样式
+
+表格单元格边框合并
+table,
+td,
+th{
+border-collapse:collapse;合并相邻边框
+
+内边距
+padding:上右下左顺时针顺序强制----写1个默认四个方向 2个默认上下-左右
+3个默认上左右下      会撑开盒子让盒子变大
+如果盒子没有宽度则padding不会撑开盒子
+
+外边距
+margin写法同padding
+
+块级盒子水平居中对齐
+div{
+width:400px;
+margin:0 auto;
+}必须要设置宽度
+
+清楚元素内自带默认内外边距
+*{
+margin:0
+padding:0
+}所有页面第一句话
+行内元素只能设置左右内外边距
+垂直外边距塌陷 1+2=2取二者最大值
+
+子级块状盒子往下带动父级块状盒子
+border-top:1px solid transparent;或者padding-top:1px;亦或
+overflow:hidden;
+
+
+
+盒子阴影
+水平阴影 垂直阴影 模糊距离【模糊的程度】 阴影大小 阴影颜色 内/外阴影
+box- shadow:5px 5px 10px #000
+box-shadow:h-shadow v-shadow blur spread color inset

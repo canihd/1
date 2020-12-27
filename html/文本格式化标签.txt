@@ -1,0 +1,4 @@
+b /b 加粗标签	strong  /strong 强调--加粗标签
+i /i 倾斜标签	em /em 强烈语义  倾斜标签
+s /s 加删除线 	del /del 强烈语义 加删除线
+u /u 下划线              	ins /ins强烈语义  下划线
